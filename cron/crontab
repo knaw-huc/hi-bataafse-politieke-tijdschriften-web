@@ -1,0 +1,3 @@
+
+# Elk uur (om 1.00 2.00 etc)
+0 * * * * /app/crontask.sh >> /var/log/cron.log 2>&1
